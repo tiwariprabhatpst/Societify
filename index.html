@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            min-height: 100%;
+        }
+
+        body {
+        margin: 0;
+        padding: 0;
+        
+        }
+        
+        header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: transparent;
+        z-index: 999;
+        
+        }
+
+        nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        height: 60px;
+        }
+
+        .logo img {
+        margin-left: 10rem;
+        height: 50px;
+        }
+
+        .nav-links {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+
+        .nav-links li {
+        
+        margin-right: 4rem;
+        position: relative;
+        }
+
+        .nav-links li p{
+          margin-right: 18rem;
+        }
+
+        .nav-links li a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        }
+
+        .nav-links li a::before{
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #000000;
+          visibility: hidden;
+          transition: all 0.3s ease-in-out;
+        }
+
+        .nav-links li a:hover::before {
+          visibility: visible;
+          width: 100%;
+        }
+        .starter{
+          margin-top: 100px;
+          display: flex;
+
+        }
+        .content{
+          position: relative;
+          flex: 60%;
+          padding: 10px;
+        }
+        .starter_image{
+          flex: 40%;
+          position: relative;
+          
+        }
+        .starter_image img{
+          margin-left: 100px;
+          width: 750px;
+          height: 900px;
+          border-radius: 20px;
+
+        }
+        .content h1{
+          font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="Societify logo2.png" alt="Logo">
+          </div>
+          <ul class="nav-links">
+            <li><a href="#">Element 1</a></li>
+            <li><a href="#">Element 2</a></li>
+            <li><a href="#">Element 3</a></li>
+            <li><a href="#">Element 4</a></li>
+            <li><p></p></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="starter">
+      <div class="content">
+        <h1>Societify</h1>
+        <h3>Simplify society management with Societify.</h3>
+        <p>Societify is a comprehensive platform designed to manage and streamline residential societies.</p>
+      </div>
+      <div class="starter_image"><img src="starter image.jpeg" alt=""></div>
+    </div>
+    
+</body>
+</html>
