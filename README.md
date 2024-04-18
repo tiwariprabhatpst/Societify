@@ -10,3 +10,15 @@ Societify is a web-based society management system built using Node.js, Express,
 - **Voting Platform:** Conduct and manage society-wide voting on important matters.
 - **Query Resolution:** Provide a platform for users to raise queries or concerns.
 - **Role-Based Access Control:** Control access to features based on user roles (admin, staff, member).
+
+## Installation
+
+To install Societify, simply clone this repository and follow the installation instructions provided in the `README` file in the project directory.
+
+## Usage
+
+Once installed, Societify can be accessed via any modern web browser. Users can log in using their credentials to access the various features and functionalities.
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to Societify, please fork this repository, make your changes, and submit a pull request detailing your proposed changes.
